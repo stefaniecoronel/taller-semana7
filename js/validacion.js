@@ -7,9 +7,9 @@ function showAlertError() {
 }
 
 
-let contraseña = document.getElementById("");
-let repetirContraseña = document.getElementById("");
-let registro = document.getElementsByClassName("mb-3");
+let contraseña = document.getElementById("password1");
+let repetirContraseña = document.getElementById("password2");
+let registro = document.getElementsById("regBtn");
 
 registro.addEventListener("submit", function(verificación) {
     if (contraseña.value !== repetirContraseña.value) {
